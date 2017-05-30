@@ -1,0 +1,27 @@
+0. Start MongoDB
+    Program Files\MongoDB\Server\3.4\bin\  mongod.exe
+
+1. Create model
+    yo meanjs:express-model category
+
+2. Create Controller
+    yo meanjs:express-controller categories
+
+3.Create Route
+    yo meanjs:express-route categories
+
+4. AngularJS Views
+    4.1 Create Angular module
+        yo meanjs:angular-module categories
+
+    4.2 Create Angular Config
+        yo meanjs:angular-config categories
+
+    4.3 Create Angular Route
+        yo meanjs:angular-route categories
+
+    4.5 Create View (html)
+        yo meanjs:angular-view create-category /edit/delete
+
+    4.4 Create Angular Service
+        yo meanjs:angular-service categories
