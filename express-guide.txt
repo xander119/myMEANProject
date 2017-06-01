@@ -25,3 +25,7 @@
 
     4.4 Create Angular Service
         yo meanjs:angular-service categories
+
+
+curd will generate all views and models :
+    yo meanjs:crud-module products
