@@ -7,29 +7,29 @@ var mongoose = require('mongoose'),
 	Schema = mongoose.Schema;
 
 /**
- * Paper Schema
+ * Papertype Schema
  */
-var PaperSchema = new Schema({
+var PapertypeSchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Paper name',
+		required: 'Please fill Paper type name',
 		trim: true
 	},
-    description: {
+	description: {
         type: String,
         default: '',
-        required: 'Please fill Paper description',
+        required: 'Please fill Paper type description',
         trim: true
     },
 	created: {
 		type: Date,
 		default: Date.now
 	},
-	paper_type: {
+	user: {
 		type: Schema.ObjectId,
-		ref: 'papertype'
+		ref: 'User'
 	}
 });
 
-mongoose.model('Paper', PaperSchema);
+mongoose.model('Papertype', PapertypeSchema);

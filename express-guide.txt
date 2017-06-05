@@ -1,5 +1,6 @@
 0. Start MongoDB
     Program Files\MongoDB\Server\3.4\bin\  mongod.exe
+    "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
 
 1. Create model
     yo meanjs:express-model category
