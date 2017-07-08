@@ -1,3 +1,15 @@
+create application with CLI command :
+First
+        yo meanjs --skip-install
+        Would you like to generate the article example CRUD module? <CHOOSE NO!>
+Then
+        npm install --dev
+        (Check the Version in package.json file in order to run the install DEV)
+        bower install
+Start
+        npm start
+
+
 0. Start MongoDB
     Program Files\MongoDB\Server\3.4\bin\  mongod.exe
     "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
